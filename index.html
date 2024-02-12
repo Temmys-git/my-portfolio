@@ -3,48 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
     <script src="https://kit.fontawesome.com/859fd00321.js" crossorigin="anonymous"></script>
-    <style>
-        .profilepix{
-            float: right;
-        }
-    </style>
+    <title>My portfolio</title>
+   
 </head>
-<body>
-    <header>
-        <img src="Images/amikelogo.png" alt="" my logo>
-        <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Skills"></a>Skills</li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
+<body style="background-color: #24263B;">
+   <div style="background-color: #1F2235;">
+        <header id="header">
+            <div id="brand">
+                <img src="./Images/amikelogo.png" alt="logo">
+            </div>
+            <div>
+                <nav id="navbar" style="display: flex; ">
+                    <ul>
+                        <li class="navItem"><a href="#Home">Home</a></li>
+                        <li class="navItem"><a href="#About">About</a></li>
+                        <li class="navItem"><a href="#Services">Services</a></li>
+                        <li class="navItem"><a href="#Skills"> Skills</a></li>
+                        <li class="navItem"><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
     <main>
         <!-- Home page -->
         <section>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-pinterest-p"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-            <div>
+            <div class="profilepix">
+                <img src="./Images/my_pic-removebg.png" alt="" width="300px" style="float: right; padding: ;">
+            </div>
+            <div style=" align-items: center;  color: aliceblue; text-align: center; " id="icon">
+            <!-- <div style="color: aliceblue;"> -->
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-x-twitter"></i>           
+            
                 <h1>
                     My Name is Temitope
                 </h1>
+                <p>
+                 I am Temitope, I am a graphic designer and i have a week <br>  experienced in software devrlopment, I love codind <br> and my code works always
+                </p>          
+            <br><br><br><br><br><br>
+           <H2>
+            <button>My Profile</button>
+           </H2>
+           </div>
+            <!-- about section -->
+            <section id="About">
+                <div style="text-align: center; color: aliceblue; padding: 300; " >
+                    <h2>About me</h2>
+                <p>
+                    Learning web development allows me to bring <br> my creative ideas to life by building personal <br>projects and websites. 
+                </p>
+                <br><br><br><br><br><br><br><br>
+                </div>
             </section>
-            <h4>
-                
-                I am Temitope, i am a graphic designer and i have a week <br>  experienced in software devrlopment, I love codind <br> and my code works always
-            </h4>
-            <div class="profilepix">
-                <img src="./Images/my_pic-removebg.png" alt="" width="150px">
-            </div>
-            </div>
+            <!-- Service section -->
+            <section id="Services">
+                <div style="text-align: center; color: aliceblue;">
+                <h2> My Service</h2>
+                <p>
+                    We create websites from scratch or redesigning existing ones. It includes aspects <br> such as layout design, user interface (UI) design, <br> user experience (UX) design, coding, and testing.
+                </p>
+                <br><br><br><br><br><br><br><br>
+                </div>
+
+            </section>
+            <!-- Skills section -->
+            <section id="Skills">
+                <div style="text-align: center; color: aliceblue;">
+                <h2> My Skills</h2>
+                <h3>Let's Work Together</h3>
+                <p>
+                    Soft Skills: Develop soft skills such as communication, teamwork, <br> problem-solving, and time management, which are <br>essential for collaborating with colleagues and stakeholders.
+                </p>
+                <br><br><br><br><br><br><br><br>
+                </div>
+
+           
+            </section>
+            <section id="contact">
+                <div style="text-align: center; color: aliceblue;">
+                    <h2>Contact Us</h2>
+                    <form 
+                        action="https://formspree.io/f/mjvnyjaz"
+                        method="POST"
+                        >
+                        <input type="text" placeholder="First name" name="firstName">
+                        <br> <br>
+                        <input type="email" placeholder="Email" name="email">
+                        <br> <br>
+                        <input type="tel" name="phone" placeholder="Phone number">
+                        <br> <br>
+                        <input type="date" placeholder="DOB" name="dob">
+                        <br> <br>
+                        
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        
+                        <br> <br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+            </section>
+           
     </main>
 
     <footer></footer>
