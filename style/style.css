@@ -39,6 +39,14 @@
     float: right
 }
 
-#icon {
-    padding: 200px;
+.fa-brands {
+    border: solid 2px red;
+    height: 50px;
+    width: 50px;
+    margin-right: 50px ;
+    margin-bottom: 80px;
+    margin-top: 150px;
+    padding-top: 10px;
+    border-radius: 25px;
+    font-size: 25px;
 }
