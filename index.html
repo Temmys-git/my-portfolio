@@ -8,14 +8,14 @@
     <title>My portfolio</title>
    
 </head>
-<body style="background-color: #24263B;">
-   <div style="background-color: #1F2235;">
+<body>
+   <div>
         <header id="header">
             <div id="brand">
                 <img src="./Images/amikelogo.png" alt="logo">
             </div>
             <div>
-                <nav id="navbar" style="display: flex; ">
+                <nav id="navbar">
                     <ul>
                         <li class="navItem"><a href="#Home">Home</a></li>
                         <li class="navItem"><a href="#About">About</a></li>
@@ -29,89 +29,139 @@
     </div>
     <main>
         <!-- Home page -->
-        <section>
-            <div class="profilepix">
-                <img src="Images/man-01.png" alt="john doe"> 
+        <section id="Home">
+            <div id="home-body">
+                <div>
+                    <div id="icons">
+                        <i class="fa-brands fa-facebook-f socIcons"></i>
+                        <i class="fa-brands fa-instagram socIcons"></i>
+                        <i class="fa-brands fa-pinterest-p socIcons"></i>
+                        <i class="fa-brands fa-x-twitter socIcons"></i>
+                        <i class="fa-brands fa-behance socIcons"></i>           
+                    </div>
+                    <div id="txt">
+                        <h1 id="toptxt">   I am Temmy</h1>
+                        <p id="midtxt">
+                        I am Temmy, I am a graphic designer and i have two weeks <br>  experienced in software development, I love coding <br> and my code works always
+                        </p>
+                    </div>
+                                
+                    <div>
+                       <button class="button" id="port">My Profile</button>
+                       <button class="button" id="play"><i class="fa-solid fa-play"></i></button>
+                   </div>
+                </div>
+                <div>
+                    <img src="Images/man-01.png" alt="john doe" id="profilepix"> 
+                </div>
             </div>
-            <div style=" align-items: center;  color: aliceblue; text-align: center; " id="icon">
-            <!-- <div style="color: aliceblue;"> -->
-                <div id="icons">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-pinterest-p"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-behance"></i>           
-            
-                </div>
-                <h1>
-                    I am Temmy
-                </h1>
-                <p>
-                 I am Temmy, I am a graphic designer and i have two weeks <br>  experienced in software development, I love codind <br> and my code works always
-                </p>          
-            <br><br><br><br><br><br>
-           <H2>
-            <button>My Profile</button>
-           </H2>
-           </div>
-            <!-- about section -->
-            <section id="About">
-                <div style="text-align: center; color: aliceblue; padding: 300; " >C
-                    <h2>About me</h2>
-                <p>
-                    Learning web development allows me to bring <br> my creative ideas to life by building personal <br>projects and websites. 
-                </p>
-                <br><br><br><br><br><br><br><br>
-                </div>
-            </section>
-            <!-- Service section -->
-            <section id="Services">
-                <div style="text-align: center; color: aliceblue;">
-                <h2> My Service</h2>
-                <p>
-                    We create websites from scratch or redesigning existing ones. It includes aspects <br> such as layout design, user interface (UI) design, <br> user experience (UX) design, coding, and testing.
-                </p>
-                <br><br><br><br><br><br><br><br>
-                </div>
+       </section>
+       
+         <!-- service section -->
+    <section id="service">
 
-            </section>
-            <!-- Skills section -->
-            <section id="Skills">
-                <div style="text-align: center; color: aliceblue;">
-                <h2> My Skills</h2>
-                <h3>Let's Work Together</h3>
-                <p>
-                    Soft Skills: Develop soft skills such as communication, teamwork, <br> problem-solving, and time management, which are <br>essential for collaborating with colleagues and stakeholders.
-                </p>
-                <br><br><br><br><br><br><br><br>
-                </div>
-
-           
-            </section>
-            <section id="contact">
-                <div style="text-align: center; color: aliceblue;">
-                    <h2>Contact Us</h2>
-                    <form 
-                        action="https://formspree.io/f/mjvnyjaz"
-                        method="POST"
-                        >
-                        <input type="text" placeholder="First name" name="firstName">
-                        <br> <br>
-                        <input type="email" placeholder="Email" name="email">
-                        <br> <br>
-                        <input type="tel" name="phone" placeholder="Phone number">
-                        <br> <br>
-                        <input type="date" placeholder="DOB" name="dob">
-                        <br> <br>
+        <div id="servicebody">
+            <h4 class="pinktxt">
+                SERVICES
+            </h4>
+            <h1 class="pinktxt2">
+                My Services
+            </h1>
+            <h3 class="pinktxt3">
+                We specialize in certain areas such as web development, mobile app <br> development, backend development, frontend development, <br>database management, or machine learning
+            </h3>
+        </div>
+        <div>
+            <div class="cardSet">
+                <a href="">
+                    <div class="card">
+                    
+                        <i class="fa-brands fa-github cardicon pinktxt"></i>
+                        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nobis eos incidunt exercitationem? Vero, quos?</h3>
+                    
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card">
+                    
+                        <i class="fa-solid fa-cube cardicon pinktxt"></i>
+                        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nobis eos incidunt exercitationem? Vero, quos?</h3>
                         
-                        <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-        
-                        <br> <br>
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card">
+                    
+                        <i class="fa-solid fa-video cardicon pinktxt"></i>
+                        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nobis eos incidunt exercitationem? Vero, quos?</h3>
+                        
+                    </div>
+                </a>
+            </div>
+           <div class="cardSet">
+                <a href="">
+                    <div class="card">
+                        
+                        <i class="fa-solid fa-image cardicon pinktxt"></i>
+                        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nobis eos incidunt exercitationem? Vero, quos?</h3>
+                        
+                    </div>
+                </a>
 
-            </section>
+                <a href="">
+                    <div class="card">
+                    
+                        <i class="fa-solid fa-apple-whole cardicon pinktxt"></i>
+                        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nobis eos incidunt exercitationem? Vero, quos?</h3>
+                    
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="card">
+    
+                        <i class="fa-brands fa-discord cardicon pinktxt"></i>
+                        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nobis eos incidunt exercitationem? Vero, quos?</h3>
+                    
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Skills section -->
+    <section id="Skills">
+        <div id="skillset">
+        <h2> My Skills</h2>
+        <h3>Let's Work Together</h3>
+        <p>
+            Soft Skills: Develop soft skills such as communication, teamwork, <br> problem-solving, and time management, which are <br>essential for collaborating with colleagues and stakeholders.
+        </p>
+        </div>
+    </section>
+    <section id="contact">
+        <div>
+            <h2>Contact Us</h2>
+            <form 
+                action="https://formspree.io/f/mjvnyjaz"
+                method="POST"
+                >
+                <input type="text" placeholder="First name" name="firstName">
+                <br> <br>
+                <input type="email" placeholder="Email" name="email">
+                <br> <br>
+                <input type="tel" name="phone" placeholder="Phone number">
+                <br> <br>
+                <input type="date" placeholder="DOB" name="dob">
+                <br> <br>
+                
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+
+                <br> <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </section>
            
     </main>
 

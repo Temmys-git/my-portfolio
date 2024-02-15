@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-decoration: none;
 }
 
 #header {
@@ -12,10 +13,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 80px;
-}
-
-#brand img {
-    width: 100px;
 }
 
 #navbar > ul {
@@ -28,25 +25,140 @@
     color: #fff;
     text-decoration: none;
     margin: 0 20px;
-    font-size: 18px;
+    font-size: 20px;
+}
+#brand img{
+    width:100px;
 }
 
 .navItem a:hover {
     color: #ff4a47;
 }
 
-.profilepix {
-    float: right
-}
 
-.fa-brands {
+.socIcons{
     border: solid 2px red;
     height: 50px;
     width: 50px;
-    margin-right: 50px ;
-    margin-bottom: 80px;
+    margin-right: 15px ;
+    margin-bottom: 30px;
     margin-top: 150px;
     padding-top: 10px;
     border-radius: 25px;
     font-size: 25px;
+    padding-left: 10px;
 }
+
+#home-body{
+    display: flex;
+
+}
+
+#icon{
+    justify-content: start;
+}
+
+#toptxt{
+    margin-bottom: 30px;
+    font-weight: 120px;
+    font-size: 58px;
+}
+
+
+
+#midtxt{
+    font-weight: lighter;
+}
+
+#Home{
+    padding: 80px;
+    background-color: #24273c;
+}
+.button{
+    background-color: #24273c;
+    border: #ff4a47 solid;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+#port{
+    width: 150px;    
+}
+
+#play{
+    width: 70px;
+    margin-left: 10px;
+    background-color: #ff4a47;
+}
+#profilepix{
+    width: 400px;
+    margin-left: 300px;
+}
+
+#service{
+    background-color: #1f2235;
+    
+}
+
+#servicebody{
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.pinktxt{
+    color: #fe4956;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.pinktxt2{
+    padding-bottom: 20px;
+    font-weight: 700px;
+    font-size: 60px;
+}
+
+.cardSet{
+    display: flex;
+    margin-left: 150px;
+    }
+    
+    .card{
+        height: 350px;
+        width: 300px;
+        padding-top: 50px;
+        background-color:#24263b;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-right: 40px;
+        border-radius: 20px;
+        padding-left: 30px;
+    }
+    
+    .card:hover{
+        background-color: #fe4956;
+    }
+    
+    .cardicon{
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    #Skills{
+        background-color: #24263b;
+        text-align: center;
+    }
+
+    #skillset{
+        
+    }
+   
+   
+    #contact{
+        background-color: #1f2235;
+        text-align: center;
+    }
